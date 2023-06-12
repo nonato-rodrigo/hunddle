@@ -1,0 +1,90 @@
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Poppins:wght@400;600&family=Public+Sans:wght@400;700&display=swap');
+
+  body {
+      font-family: 'Poppins', sans-serif;
+      content: '';
+      background: url('../images/bg-desktop.svg')center center no-repeat;
+      background-size: cover;
+      background-color: var(--violet);
+      height: 100vh;
+
+  }
+
+  .layout-principal {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      color: #fff;
+      margin: auto;
+      padding: 20px;
+  }
+
+  .logo img {
+      height: 100%;
+      margin-bottom: 30px;
+      padding: 20px 5px;
+  }
+
+.conteudo-principal img{
+    height: 100%;
+    width: 100%;
+}
+
+  .conteudo-principal {
+      display: flex;
+  }
+
+  .conteudo-descricao {
+      display: flex;
+      flex-direction: column;
+      padding: 5px 40px;
+  }
+
+  .conteudo-descricao h2 {
+      text-transform: capitalize;
+      font-weight: 700;
+      font-size: 35px;
+      padding-top:35px;
+      padding-bottom: 8px;
+  }
+
+  .conteudo-descricao .botao {
+      width: 170px;
+      padding: 12px;
+      margin-top: 15px;
+      margin-bottom: 50px;
+      text-align: center;
+      border-radius: 25px;
+      background-color: #fff;
+      color: var(--violet);
+
+  }
+
+  .conteudo-descricao .botao:hover{
+    background-color: var(--soft-magenta);
+    color: #fff;
+    transition: 0.3s;
+  }
+
+  .rodape .redes{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .rodape .redes i{
+    padding: 10px;
+    text-align: center;
+    margin-right: 25px;
+    border-radius:50%;
+    border: 1px solid;
+  }
+
+  .rodape .redes .fa-facebook-f{
+    padding: 10px 12px;
+    text-align: center;
+  }
+
+  .rodape .redes i:hover{
+    color: var(--soft-magenta);
+    transition: 0.3s;
+  }  
